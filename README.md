@@ -1,2 +1,2 @@
 # electiveSystem
-shuaige
+A SMALL STUDENT COURSE ELECTIVE SYSTEM.
