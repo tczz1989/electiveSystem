@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
+  <display-name>Student Elective System</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>Login</servlet-name>
+    <servlet-class>com.electiveSystem.servlet.Login</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Register</servlet-name>
+    <servlet-class>com.electiveSystem.servlet.Register</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SelectCourse</servlet-name>
+    <servlet-class>com.electiveSystem.servlet.SelectCourse</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SelectedCourse</servlet-name>
+    <servlet-class>com.electiveSystem.servlet.SelectedCourse</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeleteCourse</servlet-name>
+    <servlet-class>com.electiveSystem.servlet.DeleteCourse</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ShowData</servlet-name>
+  	<servlet-class>com.electiveSystem.servlet.ShowData</servlet-class>
+  </servlet>
+</web-app>
